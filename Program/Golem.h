@@ -3,9 +3,9 @@
 class Golem : public Monster
 {
 public:
+
 	Golem();
-
-	void Describe();
-
+	virtual void Describe() override;
+	virtual ~Golem();
 };
 

@@ -4,7 +4,9 @@ class Skeleton : public Monster
 {
 public :
 	Skeleton();
+	
 
-	void Describe();
+	virtual void Describe() override;
+	virtual ~Skeleton();
 };
 

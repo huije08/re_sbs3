@@ -16,3 +16,10 @@ void Skeleton::Describe()
 	cout << "describe Skeleton";
 	cout << endl;
 }
+Skeleton::~Skeleton()
+{
+	
+	
+	cout << "Destroy Monster";
+	
+}

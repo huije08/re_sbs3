@@ -8,7 +8,11 @@ protected:
 	int defense;
 
 public:
+
 	void Stat();
-	void Describe();
+
+	virtual  void Describe();
+
+	virtual ~Monster();
 };
 

@@ -14,7 +14,12 @@ void Monster::Stat()
 }
 void Monster::Describe()
 {
-
 	cout << "describe Monster";
 	cout << endl;
+
+
+}
+Monster::~Monster()
+{
+	cout << "Destroy Monster";
 }

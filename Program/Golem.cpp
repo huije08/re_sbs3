@@ -1,5 +1,5 @@
 #include "Golem.h"
-#include <iostream>
+#include "stdafx.h"
 
 using namespace std;
 Golem::Golem()
@@ -14,4 +14,8 @@ void Golem::Describe()
 {
 	cout << "describe Golem";
 	cout << endl;
+}
+Golem::~Golem()
+{
+	cout << "Destroy Monster";
 }

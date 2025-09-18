@@ -15,3 +15,8 @@ void Slime::Describe()
 	cout << "describe Slime";
 	cout << endl;
 }
+
+Slime::~Slime()
+{
+	cout << "Destroy Monster";
+}
